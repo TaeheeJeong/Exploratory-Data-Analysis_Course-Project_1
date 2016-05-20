@@ -1,9 +1,10 @@
 # Exploratory-Data-Analysis_Course-Project_1
+
 Exploratory Data Analysis_Course Project_1
 
-Dataset: Electric power consumption [20Mb]
+##Dataset: Electric power consumption [20Mb]
 
-Description: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
+##Description: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
 
 
 The following descriptions of the 9 variables in the dataset are taken from the UCI web site:
@@ -24,4 +25,5 @@ Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It co
 dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
 
 Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
+
 Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
