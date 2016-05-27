@@ -1,5 +1,7 @@
 # Exploratory-Data-Analysis_Course-Project_1
 
+Please check: TaeheeJeong/ExData_Plotting1
+
 Exploratory Data Analysis_Course Project_1
 
 ####Dataset: Electric power consumption [20Mb]
