@@ -18,11 +18,13 @@ smalldata2<-subset(bigfile.raw,Date=="2007-02-02")
 newdata<-rbind(smalldata,smalldata2)
 
 ## Making Plots
-par(las=1)
+png(filename = "plot3.png", width = 480, height = 480)
+#par(las=1)
 plot(newdata$datetime,newdata$Sub_metering_1,lty=1, lwd=1, type="l",xlab="",ylab="Energy sub metering")
 lines(newdata$datetime,newdata$Sub_metering_2,lty=1, lwd=1, type="l",col="red")
 lines(newdata$datetime,newdata$Sub_metering_3,lty=1, lwd=1, type="l",col="blue")
-legend("topright", lty=c(1,1,1), y.intersp = 0.4,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+legend("topright", lty=c(1,1,1), col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+#legend("topright", lty=c(1,1,1), y.intersp = 0.4,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 # save plot as png file
-dev.copy(png,file="plot3.png")
+#dev.copy(png,file="plot3.png")
 dev.off()
